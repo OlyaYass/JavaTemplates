@@ -1,0 +1,36 @@
+736  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+745  [main] INFO  c.y.pract16.Pract16Application – Starting Pract16Application using Java 18.0.2.1 on DESKTOP-O02423L with PID 13180 (C:\Work\task16-24\target\classes started by Olya in C:\Work\task16-24)
+746  [main] INFO  c.y.pract16.Pract16Application – No active profile set, falling back to 1 default profile: "default"
+2448 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2516 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+3270 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3282 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3283 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3283 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.64]
+3449 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3449 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2638 ms
+3686 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3744 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.9.Final
+3956 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4058 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+4250 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+4272 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+5018 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5024 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5204 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6181 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration – 
+
+Using generated security password: 4230d01b-d756-4cb3-af66-e52f32f9ec93
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+6458 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b2af0eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66c32e15, org.springframework.security.web.context.SecurityContextPersistenceFilter@20ad64c, org.springframework.security.web.header.HeaderWriterFilter@66428512, org.springframework.security.web.authentication.logout.LogoutFilter@1b08d26f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@677274e7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f346355, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6d387e9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d6a9d5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2daa5092, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@304704ae, org.springframework.security.web.session.SessionManagementFilter@7a482b3a, org.springframework.security.web.access.ExceptionTranslationFilter@16e0afab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@535b4dbf]
+6480 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 14 endpoint(s) beneath base path '/actuator'
+6524 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+6545 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+6566 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+6577 [main] INFO  c.y.pract16.Pract16Application – Started Pract16Application in 6.253 seconds (JVM running for 7.331)
+6603 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6603 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+6604 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+66583 [pool-2-thread-1] INFO  c.y.pract16.aop.CoolAspect – Pameters: {}
